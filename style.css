@@ -1,0 +1,48 @@
+body{
+
+    background: radial-gradient(
+        circle closest-corner at center 125px,
+        #6ba8a2,
+        black 99%
+      ) no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      color: aliceblue;
+      background-size: 100vw 100vh;
+      padding: 50px;
+
+}
+#hr, #min, #sec{
+   
+    font-size: 150px;
+    font-weight: bold;
+     
+}
+#lap-list{
+    font-size: 50px;
+    color: rgb(238, 243, 248);
+}
+.txt,#extra-message{
+    margin-top: 40px;
+    font-size: 50px;
+    color: rgb(238, 243, 248);
+    font-weight: bold;
+}
+.btn{
+    font-size: 50px;
+    padding: 7px 25px;
+    margin: 0px 20px;
+    border: 0px;
+    cursor: pointer;
+    color: rgb(238, 243, 248);
+
+}
+#start {
+    background-color: #6eda39;
+}
+#stop{
+    background-color: rgb(8, 98, 163);
+}
+#reset{
+    background-color: rgb(239, 88, 88);
+}
